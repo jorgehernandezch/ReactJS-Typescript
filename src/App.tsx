@@ -1,6 +1,7 @@
-function App() {
-  return (
-    <h1>Grupo Alpha</h1>
+import { Routes } from './routes';
+
+export const App = () => {
+  return(
+    <Routes />
   );
 }
-export default App;
