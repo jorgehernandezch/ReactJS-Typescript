@@ -1,5 +1,3 @@
-import '../../assets/css/global.css';
-import './style.css';
 
 export const Header = () => {
   return(

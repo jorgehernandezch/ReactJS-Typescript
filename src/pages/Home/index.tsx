@@ -1,5 +1,5 @@
-import '../../assets/css/global.css';
-import './style.css';
+import '../../assets/sass/app.scss';
+
 import { Header } from '../../components/Header';
 
 export const Home = () => {
