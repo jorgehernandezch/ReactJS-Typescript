@@ -1,12 +1,13 @@
-import '../../assets/sass/app.scss';
-
-import { Header } from '../../components/Header';
+import { Header } from "../../components/Header";
+import { Menu } from "../../components/Menu";
+import { Footer } from "../../components/Footer";
 
 export const Home = () => {
-  return(
-    <div>
-      <Header/>
-      <p>Jorge</p>
-    </div>
+  return (
+    <>
+      <Header />
+      <Menu />
+      <Footer />
+    </>
   );
 }
